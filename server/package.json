@@ -2,9 +2,9 @@
   "name": "personal-website",
   "version": "1.0.0",
   "description": "A website made for me so that I can write stuff about myself",
-  "main": "server/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.18.1"
