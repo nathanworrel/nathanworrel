@@ -5,31 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d5766d7-9446-4775-ba0a-eabe64cb1250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/public/nginx.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/RoutePaths.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/welcomePage/WelcomePage.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/aboutMePage/AboutMe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/generalComponents/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/generalComponents/header/HeaderCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/projectsPage/Projects.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/RoutePaths.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/RoutePaths.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/welcomePage/WelcomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" afterDir="false" />
     </list>
     <list id="30a2855c-c0d2-45c1-b812-1016c0ad8ad7" name="Changes by acascio4" comment="" />
     <list id="2d77ed07-d5cd-4707-8f0a-ba626e53ccf2" name="Changes by cstead" comment="" />
@@ -75,6 +59,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/generalComponents/header" />
       <recent name="$PROJECT_DIR$/server" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/folder" />
@@ -110,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656423168118</updated>
       <workItem from="1656423169228" duration="1529000" />
-      <workItem from="1657309689762" duration="6060000" />
+      <workItem from="1657309689762" duration="10013000" />
     </task>
     <servers />
   </component>

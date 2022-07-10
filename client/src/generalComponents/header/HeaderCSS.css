@@ -1,0 +1,32 @@
+.header-name{
+    display: flex;
+    justify-content: center;
+    background: aqua;
+}
+
+.header-name-text{
+    font-size: 400%;
+    margin: 1% auto;
+}
+
+.header-button{
+    display: flex;
+    justify-content: left;
+    background: lightslategrey;
+}
+
+.header-button-text{
+    font-size:120%;
+    padding: 1%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.header-button-text:hover{
+    cursor: grab;
+    background: grey;
+}
