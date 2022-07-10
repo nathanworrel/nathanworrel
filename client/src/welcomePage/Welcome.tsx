@@ -1,4 +1,5 @@
 import {Header} from "../generalComponents/header/Header";
+import {Footer} from "../generalComponents/footer/Footer";
 
 function Welcome() {
     return(
@@ -7,6 +8,7 @@ function Welcome() {
             <div>
                 <p>Welcome</p>
             </div>
+            <Footer/>
         </main>
     )
 }
