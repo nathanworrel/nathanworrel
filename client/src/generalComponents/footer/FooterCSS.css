@@ -1,5 +1,7 @@
 .footer{
-    background: lightslategrey;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
+    padding-top: 1%;
+    margin-top:2%;
+    border-top: 2px solid #102B43;
 }

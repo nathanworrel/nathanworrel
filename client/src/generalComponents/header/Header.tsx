@@ -9,11 +9,11 @@ export function Header(){
     }
     return(
         <>
-            <div className="header-name">
+            <header className="header-name">
                 <p className="header-name-text">
                     Nathaniel Worrel
                 </p>
-            </div>
+            </header>
             <div className="header-button">
                 <button className="header-button-text"
                         onClick={()=>{changePage('/')}}>

@@ -1,0 +1,15 @@
+.title-info{
+    text-align: center;
+    margin: 3%;
+}
+#work-experience-info{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.experience-box{
+    background: #DEE2E5;
+    border: 2px solid #102B43;
+    border-radius: 7px;
+    padding: 2%;
+    margin: 1% 5%;
+}
