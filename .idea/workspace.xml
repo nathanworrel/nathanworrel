@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d5766d7-9446-4775-ba0a-eabe64cb1250" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/aboutMePage/AboutMe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/generalComponents/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/generalComponents/header/HeaderCSS.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/projectsPage/Projects.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/RoutePaths.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/RoutePaths.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/welcomePage/WelcomePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
     </list>
     <list id="30a2855c-c0d2-45c1-b812-1016c0ad8ad7" name="Changes by acascio4" comment="" />
     <list id="2d77ed07-d5cd-4707-8f0a-ba626e53ccf2" name="Changes by cstead" comment="" />
@@ -95,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656423168118</updated>
       <workItem from="1656423169228" duration="1529000" />
-      <workItem from="1657309689762" duration="10013000" />
+      <workItem from="1657309689762" duration="11913000" />
     </task>
     <servers />
   </component>
@@ -112,5 +108,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/generalComponents/footer/Footer.tsx</url>
+          <line>18</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
