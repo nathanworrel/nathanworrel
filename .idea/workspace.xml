@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d5766d7-9446-4775-ba0a-eabe64cb1250" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/contactMePage/ContactMeCSS.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/file.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/aboutMePage/AboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/aboutMePage/AboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/generalComponents/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/generalComponents/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/generalComponents/footer/FooterCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/generalComponents/footer/FooterCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/generalComponents/header/HeaderCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/generalComponents/header/HeaderCSS.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/welcomePage/Welcome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/workExperiencePage/WorkExperience.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
     </list>
     <list id="30a2855c-c0d2-45c1-b812-1016c0ad8ad7" name="Changes by acascio4" comment="" />
@@ -23,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript JSX File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,13 +51,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/nworrel/Documents/personal-website",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs.jest.jest_package": "/Users/nworrel/Documents/personal-website/client/node_modules/react-scripts",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/nworrel/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5591.52/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
+    "ts.external.directory.path": "/Users/nworrel/Documents/personal-website/client/node_modules/typescript/lib"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -91,7 +99,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656423168118</updated>
       <workItem from="1656423169228" duration="1529000" />
-      <workItem from="1657309689762" duration="11913000" />
+      <workItem from="1657309689762" duration="18908000" />
     </task>
     <servers />
   </component>
@@ -108,17 +116,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/src/generalComponents/footer/Footer.tsx</url>
-          <line>18</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
