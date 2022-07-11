@@ -19,7 +19,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "typeRoots" : ["node_modules/@types", "src/images/images.d.ts"]
+    "typeRoots" : ["node_modules/@types",
+      "src/types/images.d.ts"
+    ]
   },
   "include": [
     "src"

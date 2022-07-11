@@ -14,7 +14,8 @@ function Welcome() {
                         Welcome!!
                     </h1>
                 </div>
-                <div id="welcome-information" className="center">
+                <div id="welcome-information"
+                     className="center">
                     <div>
                         <img src={picture}
                              alt="Photo of Nathaniel Worrel in a suit."

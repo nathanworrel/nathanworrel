@@ -1,7 +1,7 @@
 .header-name{
     display: flex;
     justify-content: center;
-    background: aqua;
+    background: white;
 }
 
 .header-name-text{
@@ -12,18 +12,20 @@
 .header-button{
     display: flex;
     justify-content: left;
-    background: #DEE2E5;
+    background: white;
 }
 
 .header-button-text{
-    font-size:120%;
+    font-size:100%;
     padding: 1%;
     background-color: transparent;
     background-repeat: no-repeat;
-    border: none;
+    border: solid;
+    border-radius: 7px;
     cursor: pointer;
     overflow: hidden;
     outline: none;
+    margin: 0.1%;
 }
 
 .header-button-text:hover{

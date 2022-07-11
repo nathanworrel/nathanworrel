@@ -6,3 +6,9 @@
     display: flex;
     justify-content: center;
 }
+
+#welcome-text{
+    text-align: center;
+    margin: 10% 5% 0% 5%;
+    width: 30vw;
+}

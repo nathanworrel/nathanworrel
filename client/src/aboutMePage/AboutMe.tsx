@@ -5,8 +5,8 @@ function AboutMe() {
     return(
         <main>
             <Header/>
+            <h1>About Me:)</h1>
             <div>
-                <p>About Me</p>
             </div>
             <Footer/>
         </main>
