@@ -16,6 +16,7 @@ export function Footer(){
             <p>
                 Resume: <span>Put Resume Hyperlink here :)</span>
             </p>
+            <p>Should I put my personal contact on the internet?? Might not be smart</p>
         </div>
     )
 

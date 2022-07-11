@@ -3,7 +3,7 @@ import {Footer} from "../generalComponents/footer/Footer";
 
 function Welcome() {
     return(
-        <>
+        <main>
             <Header/>
             <h1 id="welcome">
                 Welcome!!
@@ -20,7 +20,7 @@ function Welcome() {
                 </div>
             </div>
             <Footer/>
-        </>
+        </main>
     )
 }
 

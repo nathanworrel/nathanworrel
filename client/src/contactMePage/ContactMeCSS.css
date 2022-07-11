@@ -1,0 +1,18 @@
+.title-info{
+    text-align: center;
+    margin: 3%;
+}
+.contact-input-section{
+    text-align: left;
+    margin: 2% 30%;
+    font-size: 120%;
+}
+#contact-input-name-holder{
+    display: flex;
+    justify-content: center;
+}
+.contact-input-name{
+    width: 19vw;
+    margin: 1% auto;
+    font-size: 110%;
+}

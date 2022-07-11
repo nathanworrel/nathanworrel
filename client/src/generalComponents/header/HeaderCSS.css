@@ -12,7 +12,7 @@
 .header-button{
     display: flex;
     justify-content: left;
-    background: lightslategrey;
+    background: #DEE2E5;
 }
 
 .header-button-text{
