@@ -15,26 +15,36 @@ export function Header(){
                 </p>
             </header>
             <div className="header-button">
-                <button className="header-button-text"
-                        onClick={()=>{changePage('/')}}>
-                    Overview
-                </button>
-                <button className="header-button-text"
-                        onClick={()=>{changePage('/AboutMe')}}>
-                    About Me
-                </button>
-                <button className="header-button-text"
-                        onClick={()=>{changePage('/Projects')}}>
-                    Projects
-                </button>
-                <button className="header-button-text"
-                        onClick={()=>{changePage('/WorkExperience')}}>
-                    Work Experience
-                </button>
-                <button className="header-button-text"
-                        onClick={()=>{changePage('/ContactMe')}}>
-                    Contact Me
-                </button>
+                <span>
+                    <button className="header-button-text"
+                            onClick={()=>{changePage('/')}}>
+                        Overview
+                    </button>
+                </span>
+                <span>
+                    <button className="header-button-text"
+                            onClick={()=>{changePage('/AboutMe')}}>
+                        About Me
+                    </button>
+                </span>
+                <span>
+                    <button className="header-button-text"
+                            onClick={()=>{changePage('/Projects')}}>
+                        Projects
+                    </button>
+                </span>
+                <span>
+                    <button className="header-button-text"
+                            onClick={()=>{changePage('/WorkExperience')}}>
+                        Work Experience
+                    </button>
+                </span>
+                <span>
+                    <button className="header-button-text"
+                            onClick={()=>{changePage('/ContactMe')}}>
+                        Contact Me
+                    </button>
+                </span>
             </div></>
     )
 

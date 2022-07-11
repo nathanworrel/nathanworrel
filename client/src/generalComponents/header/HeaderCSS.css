@@ -1,34 +1,44 @@
 .header-name{
     display: flex;
     justify-content: center;
-    background: white;
+    background: #7b889e;
 }
 
 .header-name-text{
     font-size: 400%;
     margin: 1% auto;
+    color: aliceblue;
 }
 
 .header-button{
-    display: flex;
-    justify-content: left;
-    background: white;
+    display: table;
+    background: #23395d;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.header-button-text:hover {
+    cursor: grab;
+    background-color: aliceblue;
+    color: #23395d;
 }
 
 .header-button-text{
-    font-size:100%;
+    font-size:120%;
     padding: 1%;
     background-color: transparent;
     background-repeat: no-repeat;
-    border: solid;
+    border: solid #23395d;
     border-radius: 7px;
     cursor: pointer;
     overflow: hidden;
     outline: none;
     margin: 0.1%;
+    color: aliceblue;
+    width: 100%;
 }
 
-.header-button-text:hover{
-    cursor: grab;
-    background: grey;
+.header-button span {
+    display: table-cell;
+    text-align: center;
 }

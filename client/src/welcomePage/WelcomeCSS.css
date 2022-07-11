@@ -1,6 +1,8 @@
 #welcome-image{
     width: auto;
     height:50vh;
+    border: 3px solid;
+    border-color: #23395d;
 }
 .center{
     display: flex;
