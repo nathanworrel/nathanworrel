@@ -12,19 +12,27 @@ function ContactMe() {
             </div>
             <div className="contact-input-section">
                 <label>Name *</label>
-                <div id="contact-input-name-holder">
+                <div className="center">
                     <input type="text" className="contact-input-name"></input>
                     <input type="text" className="contact-input-name"></input>
-                    <label>First Name</label>
-                    <label>Last Name</label>
+                </div>
+                <div id="contact-text-name-holder">
+                    <label id="contact-first">First Name</label>
+                    <label id="contact-last">Last Name</label>
                 </div>
                 <label>Email Address *</label>
-                <input type="text"></input>
+                <div className="center">
+                    <input type="text" id="contact-email-input"></input>
+                </div>
                 <label>Subject *</label>
-                <input type="text"></input>
+                <div className="center">
+                    <input type="text" id="contact-subject-input"></input>
+                </div>
                 <label>Message *</label>
-                <input type="text"></input>
-                <button>Submit</button>
+                <div className="center">
+                    <textarea id="contact-message-input"></textarea>
+                </div>
+                <button id="contact-submit-button">Submit</button>
             </div>
             <Footer/>
         </main>

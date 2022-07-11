@@ -1,0 +1,8 @@
+#welcome-image{
+    width: auto;
+    height:50vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}

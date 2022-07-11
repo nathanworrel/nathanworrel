@@ -7,12 +7,49 @@
     margin: 2% 30%;
     font-size: 120%;
 }
-#contact-input-name-holder{
+.center{
     display: flex;
     justify-content: center;
 }
 .contact-input-name{
     width: 19vw;
-    margin: 1% auto;
+    margin: 1% auto 0% auto;
     font-size: 110%;
+}
+#contact-text-name-holder{
+    display: flex;
+    justify-content: center;
+    font-size: 75%;
+    color: #4b4b4b;
+    margin-bottom: 2%;
+}
+#contact-first{
+    margin-right: 38%;
+}
+#contact-last{
+    margin-left: 38%;
+}
+#contact-email-input{
+    width: 40vw;
+    margin: 1% auto 2% auto;
+    font-size: 110%;
+}
+#contact-subject-input{
+    width: 40vw;
+    margin: 1% auto 2% auto;
+    font-size: 110%;
+}
+#contact-message-input{
+    width: 40vw;
+    min-height: 10vh;
+    margin: 1% auto 3% auto;
+    font-size: 110%;
+}
+#contact-submit-button{
+    border-radius: 7px;
+    background: transparent;
+    font-size: 100%;
+}
+#contact-submit-button:hover{
+    background: grey;
 }
