@@ -2,7 +2,16 @@ import {Header} from "../generalComponents/header/Header";
 import {Footer} from "../generalComponents/footer/Footer";
 import "./ContactMeCSS.css";
 
+interface data{
+    firstName:string;
+    lastName:string;
+    email:string;
+    subject:string;
+    message:string;
+}
+
 function ContactMe() {
+    let info = {firstName:"",lastName:"",email:"",subject:"",message:""} as data;
     return(
         <main>
             <Header/>
@@ -13,8 +22,18 @@ function ContactMe() {
             <div className="contact-input-section">
                 <label>Name *</label>
                 <div className="center">
-                    <input type="text" className="contact-input-name"></input>
-                    <input type="text" className="contact-input-name"></input>
+                    <input type="text"
+                           className="contact-input-name"
+                           onChange={(e)=>{
+                               info.firstName=e.target.value;
+                           }}>
+                    </input>
+                    <input type="text"
+                           className="contact-input-name"
+                           onChange={(e)=>{
+                               info.lastName=e.target.value;
+                           }}>
+                    </input>
                 </div>
                 <div id="contact-text-name-holder">
                     <label id="contact-first">First Name</label>
@@ -22,17 +41,26 @@ function ContactMe() {
                 </div>
                 <label>Email Address *</label>
                 <div className="center">
-                    <input type="text" id="contact-email-input"></input>
+                    <input type="text" id="contact-email-input"
+                           onChange={(e)=>{
+                               info.email=e.target.value;
+                           }}></input>
                 </div>
                 <label>Subject *</label>
                 <div className="center">
-                    <input type="text" id="contact-subject-input"></input>
+                    <input type="text" id="contact-subject-input"
+                           onChange={(e)=>{
+                               info.subject=e.target.value;
+                           }}></input>
                 </div>
                 <label>Message *</label>
                 <div className="center">
-                    <textarea id="contact-message-input"></textarea>
+                    <textarea id="contact-message-input"
+                              onChange={(e)=>{
+                                  info.message=e.target.value;
+                              }}></textarea>
                 </div>
-                <button id="contact-submit-button">Submit</button>
+                <button id="contact-submit-button" onClick={()=>{console.log(info)}}>Submit</button>
             </div>
             <Footer/>
         </main>
