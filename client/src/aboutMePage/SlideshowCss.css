@@ -1,0 +1,12 @@
+@import 'react-slideshow-image/dist/styles.css';
+
+.slide-container{
+    width: 20vw;
+    height: auto;
+}
+
+.each-image{
+    height: auto;
+    width: 20vw;
+    margin: auto;
+}

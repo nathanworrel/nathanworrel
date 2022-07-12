@@ -1,6 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
-import 'react-slideshow-image/dist/styles.css'
+import "./SlideshowCss.css";
 import photo from "./FacePhoto.jpg";
 
 const slideImages = [
@@ -24,7 +24,10 @@ export const Slideshow = () => {
             <Slide>
                 {slideImages.map((slideImage, index)=> (
                     <div className="each-slide" key={index}>
-                        <img src={slideImage.url}></img>
+                        <img className={"each-image"} src={slideImage.url} alt={slideImage.caption}></img>
+                        <label>
+                            {slideImage.caption}
+                        </label>
                     </div>
                 ))}
             </Slide>
