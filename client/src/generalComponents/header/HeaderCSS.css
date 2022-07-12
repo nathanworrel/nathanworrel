@@ -15,6 +15,8 @@
     background: #23395d;
     width: 100%;
     table-layout: fixed;
+    display: flex;
+    justify-content: center;
 }
 
 .header-button-text:hover {
@@ -33,9 +35,9 @@
     cursor: pointer;
     overflow: hidden;
     outline: none;
-    margin: 0.1%;
+    margin: 0.1% auto;
     color: aliceblue;
-    width: 100%;
+    width: 19vw;
 }
 
 .header-button span {

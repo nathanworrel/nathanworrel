@@ -5,9 +5,6 @@ export function Footer(){
     return(
         <div className="footer">
             <p>
-                Nathaniel Worrel
-            </p>
-            <p>
                 Phone Number: 248-901-6571
             </p>
             <p>
