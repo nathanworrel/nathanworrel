@@ -4,7 +4,17 @@
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 2%;
+    margin-bottom: auto;
     border-top: 2px solid #23395d;
     background: #DEE2E5;
     width: 100%;
+    height: auto;
+}
+
+.icon{
+    margin: 0% 1%;
+}
+
+.icon:hover{
+    cursor: grab;
 }

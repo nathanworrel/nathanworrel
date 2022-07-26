@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d5766d7-9446-4775-ba0a-eabe64cb1250" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/contactMePage/ContactMe.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/welcomePage/WelcomeCSS.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/welcomePage/WelcomeCSS.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="7d5766d7-9446-4775-ba0a-eabe64cb1250" name="Changes" comment="" />
     <list id="30a2855c-c0d2-45c1-b812-1016c0ad8ad7" name="Changes by acascio4" comment="" />
     <list id="2d77ed07-d5cd-4707-8f0a-ba626e53ccf2" name="Changes by cstead" comment="" />
     <list id="f598b311-8bee-4650-af3b-093d4589a725" name="Changes by kmill206" comment="" />
@@ -41,10 +35,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/nworrel/Documents/personal-website&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/nworrel/Documents/personal-website/client/src/aboutMePage&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -52,10 +48,13 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs.jest.jest_package&quot;: &quot;/Users/nworrel/Documents/personal-website/client/node_modules/react-scripts&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/nworrel/Documents/personal-website/client/node_modules/typescript/lib&quot;
+    &quot;ts.external.directory.path&quot;: &quot;/Users/nworrel/Library/Application Support/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5591.52/IntelliJ IDEA.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/aboutMePage" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/generalComponents/header" />
       <recent name="$PROJECT_DIR$/server" />
@@ -94,6 +93,9 @@
       <updated>1656423168118</updated>
       <workItem from="1656423169228" duration="1529000" />
       <workItem from="1657309689762" duration="18908000" />
+      <workItem from="1657657471876" duration="3307000" />
+      <workItem from="1658150729739" duration="10063000" />
+      <workItem from="1658867259230" duration="446000" />
     </task>
     <servers />
   </component>

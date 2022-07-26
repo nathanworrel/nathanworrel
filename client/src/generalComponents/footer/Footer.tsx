@@ -1,8 +1,11 @@
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faFile} from "@fortawesome/free-solid-svg-icons";
+import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import "./FooterCSS.css";
+import React from "react";
 
-
-export function Footer(){
-    return(
+export function Footer() {
+    return (
         <div className="footer">
             <p>
                 Phone Number: 248-901-6571
@@ -11,10 +14,20 @@ export function Footer(){
                 Email: ncworrel@gmail.com
             </p>
             <p>
-                Resume: <span>Put Resume Hyperlink here :)</span>
+                links:
             </p>
-            <p>Should I put my personal contact on the internet?? Might not be smart</p>
+            <div> Resume:
+                <FontAwesomeIcon className={"icon"}
+                                 icon={faFile}
+                                 onClick={() => {
+                                 }}
+                />
+                <FontAwesomeIcon className={"icon"}
+                                 icon={faLinkedin}
+                                 onClick={() => {
+                                 }}
+                />
+            </div>
         </div>
     )
-
 }

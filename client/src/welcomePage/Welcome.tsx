@@ -18,13 +18,13 @@ function Welcome() {
                      className="center">
                     <div>
                         <img src={picture}
-                             alt="Photo of Nathaniel Worrel in a suit."
+                             alt="Nathaniel Worrel in a suit."
                              id={"welcome-image"}/>
                     </div>
                     <div id="welcome-text">
                         <p>
                             Hello!! I'm Nathaniel Worrel a Senior at the University of Michigan studying computer science.
-                            I made this website to show help showcase who I am and what I am capiable of.
+                            I made this website to show help showcase who I am and what I am capiable of. -- not final poorly writen
                         </p>
                     </div>
                 </div>
