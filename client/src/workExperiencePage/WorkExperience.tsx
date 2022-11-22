@@ -4,6 +4,11 @@ import "./WorkExperienceCSS.css";
 import CommunityCenter from "../images/troy-community-center.jpeg";
 import React from "react";
 import RobotPhoto from "../images/HomeCareRobot.png";
+import chip from "../images/chipotleBHouse.jpeg";
+import CHWOTd from "../images/CHWOTD.png";
+import Dealer from "../images/DealerSurvey.png";
+import Lawn from "../images/lawnAeration.jpeg";
+import PCSupply from "../images/PCSupply.jpeg";
 
 function WorkExperience() {
     return(
