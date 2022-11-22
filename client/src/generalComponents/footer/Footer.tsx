@@ -17,16 +17,18 @@ export function Footer() {
                 links:
             </p>
             <div> Resume:
-                <FontAwesomeIcon className={"icon"}
+                <a href={"https://docs.google.com/document/d/1eixjJxHcj45tm1ZxuSuhg-qNQQAtQseBNF61OXAVGNM/edit?usp=sharing"}>
+                    <FontAwesomeIcon className={"icon"}
                                  icon={faFile}
                                  onClick={() => {
                                  }}
-                />
-                <FontAwesomeIcon className={"icon"}
+                    />
+                </a>
+                <a href={"https://www.linkedin.com/in/nathaniel-worrel-832bb5208/"}>
+                    <FontAwesomeIcon className={"icon"}
                                  icon={faLinkedin}
-                                 onClick={() => {
-                                 }}
-                />
+                    />
+                </a>
             </div>
         </div>
     )

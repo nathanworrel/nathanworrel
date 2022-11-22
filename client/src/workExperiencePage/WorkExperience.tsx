@@ -1,6 +1,9 @@
 import {Header} from "../generalComponents/header/Header";
 import {Footer} from "../generalComponents/footer/Footer";
 import "./WorkExperienceCSS.css";
+import CommunityCenter from "../images/troy-community-center.jpeg";
+import React from "react";
+import RobotPhoto from "../images/HomeCareRobot.png";
 
 function WorkExperience() {
     return(
@@ -9,7 +12,7 @@ function WorkExperience() {
             <h1 className="title-info">Work Experience</h1>
             <div id="work-experience-info">
                 <div className="experience-box">
-                    <h3>Ford Software Designer</h3>
+                    <h3>Ford Software Engineer Intern</h3>
                     <div>
                         <span>Image</span>
                         <p>
@@ -21,7 +24,9 @@ function WorkExperience() {
                 <div className="experience-box">
                     <h3>MindHome Product Designer/Software Engineer</h3>
                     <div>
-                        <span>Image</span>
+                        <img src={RobotPhoto}
+                             alt="Troy Community Center"
+                             id={"welcome-image"}/>
                         <p>
                             This is the information.
                         </p>
@@ -61,9 +66,14 @@ function WorkExperience() {
                 <div className="experience-box">
                     <h3>Ski Supervisor</h3>
                     <div>
-                        <span>Image</span>
+                        <img src={CommunityCenter}
+                             alt="Troy Community Center"
+                             id={"welcome-image"}/>
                         <p>
-                            This is the information.
+                            Worked at the Troy Community Center as a Ski Supervisor for elemetry schoolers.<br></br>
+                            In this job I had to monitor a group of 5-7 middle schoolers for an entire day as we went down
+                            different sections of the hill at mount holly. This also included taking them to ski class and reinforcing
+                            the skills taught at ski class.
                         </p>
                     </div>
                 </div>

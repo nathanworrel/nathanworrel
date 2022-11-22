@@ -1,7 +1,7 @@
 import {Header} from "../generalComponents/header/Header";
 import {Footer} from "../generalComponents/footer/Footer";
 import React from 'react';
-import picture from './FacePhoto.jpg';
+import picture from '../images/FacePhoto.jpg';
 import "./WelcomeCSS.css"
 
 function Welcome() {
